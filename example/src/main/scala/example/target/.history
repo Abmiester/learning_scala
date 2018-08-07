@@ -1,0 +1,20 @@
+test
+console
+:q
+exit
+test
+submit it@getbellhops.com YqpBtJlWQoxJkBTr
+exit
+submit it@getbellhops.com YqpBtJlWQoxJkBTr
+exit
+submit it@getbellhops.com YqpBtJlWQoxJkBTr
+cd ..
+test
+submit
+exit
+compile
+compile --help
+test
+run
+submit
+exit

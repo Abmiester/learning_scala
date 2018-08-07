@@ -1,0 +1,8 @@
+test
+import example.Lists._
+sum(List(1,3,2))
+:q
+quit
+exit
+console
+exit
