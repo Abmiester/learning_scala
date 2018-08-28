@@ -1,0 +1,17 @@
+compile Main
+exit
+compile
+testOnly BalanceSuite
+testOnly PascalSuite
+testOnly CountChangeSuite
+test
+compile
+run
+countChange(100, [5, 45, 50])
+Main.countChange(100, [5, 45, 50])
+test
+exit
+submit it@getbellhops.com HouRuV7xITksGasT
+exit
+console
+submit it@getbellhops.com HouRuV7xITksGasT
