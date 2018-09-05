@@ -1,0 +1,55 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:6:12: object junit is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.junit.runner.RunWith[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:7:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:16:27: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass FunSetSuite extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:15:2: not found: type RunWith[0m
+[0m[[0m[31merror[0m] [0m[0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:51:10: not found: value FunSets[0m
+[0m[[0m[31merror[0m] [0m[0m  import FunSets._[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:53:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("contains is implemented") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:54:12: not found: value contains[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(contains(x => true, 100))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:77:14: not found: value singletonSet[0m
+[0m[[0m[31merror[0m] [0m[0m    val s1 = singletonSet(1)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:78:14: not found: value singletonSet[0m
+[0m[[0m[31merror[0m] [0m[0m    val s2 = singletonSet(2)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:79:14: not found: value singletonSet[0m
+[0m[[0m[31merror[0m] [0m[0m    val s3 = singletonSet(3)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:89:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("singletonSet(1) contains 1") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:100:14: not found: value contains[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(contains(s1, 1), "Singleton")[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:104:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("union contains all elements of each set") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:106:15: not found: value union[0m
+[0m[[0m[31merror[0m] [0m[0m      val s = union(s1, s2)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:107:14: not found: value contains[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(contains(s, 1), "Union 1")[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:108:14: not found: value contains[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(contains(s, 2), "Union 2")[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/funsets/src/test/scala/funsets/FunSetSuite.scala:109:15: not found: value contains[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(!contains(s, 3), "Union 3")[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m18 errors found[0m

@@ -1,0 +1,13 @@
+test
+test "intersect contains only the elements that are in both sets"
+test
+testOnly *FunSetSuite -- -z "intersect contains only the elements that are in both sets"
+testOnly *FunSetSuite -- -z "union contains all elements of each set"
+testOnly *FunSets -- -z "union contains all elements of each set"
+test
+exit
+testOnly *FunSetSuite -- -z "union contains all elements of each set"
+test
+testOnly *FunSetSuite -- -z "intersect contains only the elements that are in both sets"
+test
+exit
