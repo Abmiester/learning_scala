@@ -1,0 +1,10 @@
+coursier.ResolutionException: Encountered 1 error(s) in dependency resolution:
+    org.scala-lang.modules:scala-parser-combinators_2.11_2.11:1.1.0:
+        not found:
+            /Users/abraarahmed/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11_2.11/1.1.0/ivys/ivy.xml
+            https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11_2.11/1.1.0/scala-parser-combinators_2.11_2.11-1.1.0.pom
+[error] (*:ssExtractDependencies) coursier.ResolutionException: Encountered 1 error(s) in dependency resolution:
+[error]     org.scala-lang.modules:scala-parser-combinators_2.11_2.11:1.1.0:
+[error]         not found:
+[error]             /Users/abraarahmed/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11_2.11/1.1.0/ivys/ivy.xml
+[error]             https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11_2.11/1.1.0/scala-parser-combinators_2.11_2.11-1.1.0.pom

@@ -1,0 +1,27 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/objsets/src/main/scala/objsets/TweetReader.scala:6:23: object parsing is not a member of package util[0m
+[0m[[0m[31merror[0m] [0m[0m    import scala.util.parsing.json._[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/objsets/src/main/scala/objsets/TweetReader.scala:9:7: not found: value JSON[0m
+[0m[[0m[31merror[0m] [0m[0m      JSON.parseFull(s).get.asInstanceOf[List[T]][0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/objsets/src/main/scala/objsets/TweetReader.scala:12:7: not found: value JSON[0m
+[0m[[0m[31merror[0m] [0m[0m      JSON.parseFull(s).get.asInstanceOf[Map[String, Any]][0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/objsets/src/main/scala/objsets/TweetSet.scala:3:8: not found: object common[0m
+[0m[[0m[31merror[0m] [0m[0mimport common._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/objsets/src/main/scala/objsets/TweetSet.scala:59:43: not found: value TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0m    def union(that: TweetSet): TweetSet = TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/objsets/src/main/scala/objsets/TweetSet.scala:70:32: not found: value Tweet[0m
+[0m[[0m[31merror[0m] [0m[0m    def mostRetweeted: Tweet = Tweet[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/objsets/src/main/scala/objsets/TweetSet.scala:81:42: not found: value TweetList[0m
+[0m[[0m[31merror[0m] [0m[0m    def descendingByRetweet: TweetList = TweetList[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/objsets/src/main/scala/objsets/TweetSet.scala:147:17: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: objsets.Tweet[0m
+[0m[[0m[31merror[0m] [0m[0m    this.foreach(t => if (t.retweets > m.retweets) m = t)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
