@@ -11,3 +11,7 @@ test
 testOnly *FunSetSuite -- -z "intersect contains only the elements that are in both sets"
 test
 exit
+test
+testOnly *FunSetSuite -- -z "exists confirms if element exists in set"
+test
+exit

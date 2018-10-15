@@ -1,0 +1,5 @@
+test
+testOnly *FunSetSuite -- -z "exists confirms if element exists in set"
+test
+testOnly *FunSetSuite -- -z "exists confirms if element exists in set"
+exit
