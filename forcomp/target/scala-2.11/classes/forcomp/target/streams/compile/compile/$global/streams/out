@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/forcomp/src/main/scala/forcomp/Anagrams.scala:3:15: object common is not a member of package <root>[0m
+[0m[[0m[31merror[0m] [0m[0mimport _root_.common._[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/forcomp/src/main/scala/forcomp/package.scala:8:7: not found: value common[0m
+[0m[[0m[31merror[0m] [0m[0m      common.resourceAsStreamFromSrc(dictionaryPath)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
