@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0m+ Heap.min1: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.min2: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.inserting_two_els_into_emp_heap: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.insert_delete_min: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.melding_min: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.inserting_sequence: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.asList_sorted: OK, passed 100 tests.[0m

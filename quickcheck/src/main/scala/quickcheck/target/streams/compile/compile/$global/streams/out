@@ -1,0 +1,82 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/Heap.scala:3:8: not found: object common[0m
+[0m[[0m[31merror[0m] [0m[0mimport common._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:3:8: not found: object common[0m
+[0m[[0m[31merror[0m] [0m[0mimport common._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:5:12: object scalacheck is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalacheck._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:6:8: not found: object Arbitrary[0m
+[0m[[0m[31merror[0m] [0m[0mimport Arbitrary._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:7:8: not found: object Gen[0m
+[0m[[0m[31merror[0m] [0m[0mimport Gen._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:8:8: not found: object Prop[0m
+[0m[[0m[31merror[0m] [0m[0mimport Prop._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:10:39: not found: type Properties[0m
+[0m[[0m[31merror[0m] [0m[0mabstract class QuickCheckHeap extends Properties("Heap") with IntHeap {[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:10:50: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mabstract class QuickCheckHeap extends Properties("Heap") with IntHeap {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:12:21: not found: type Gen[0m
+[0m[[0m[31merror[0m] [0m[0m  lazy val genHeap: Gen[H] = for {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:13:10: not found: value arbitrary[0m
+[0m[[0m[31merror[0m] [0m[0m    k <- arbitrary[A][0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:14:10: not found: value oneOf[0m
+[0m[[0m[31merror[0m] [0m[0m    h <- oneOf(empty, genHeap)[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:17:30: not found: type Arbitrary[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit lazy val arbHeap: Arbitrary[H] = Arbitrary(genHeap)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:17:45: not found: value Arbitrary[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit lazy val arbHeap: Arbitrary[H] = Arbitrary(genHeap)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:19:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("min1") = forAll { h: H =>[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:19:22: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m  property("min1") = forAll { h: H =>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:24:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("min2") = forAll { a: Int =>[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:24:22: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m  property("min2") = forAll { a: Int =>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:29:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("inserting_two_els_into_emp_heap") = forAll { (a: A, b: A) =>[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:29:49: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m  property("inserting_two_els_into_emp_heap") = forAll { (a: A, b: A) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:35:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("insert_delete_min") = forAll { a: A =>[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:35:35: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m  property("insert_delete_min") = forAll { a: A =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:40:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("melding_min") = forAll { (h1: H, h2: H) =>[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:40:29: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m  property("melding_min") = forAll { (h1: H, h2: H) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:45:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("inserting_sequence") = forAll { l: List[A] =>[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:45:36: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m  property("inserting_sequence") = forAll { l: List[A] =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:50:3: not found: value property[0m
+[0m[[0m[31merror[0m] [0m[0m  property("asList_sorted") = forAll { h: H =>[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abraarahmed/Documents/learning_scala/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:50:31: not found: value forAll[0m
+[0m[[0m[31merror[0m] [0m[0m  property("asList_sorted") = forAll { h: H =>[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m27 errors found[0m
