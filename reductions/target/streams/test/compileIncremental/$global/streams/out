@@ -1,11 +1,3 @@
-[debug] [naha] Invalidating C:\Users\Mohamed Abraar Ahmed\.sbt\0.13\java9-rt-ext-jetbrains_s_r_o_11_0_3\rt.jar: class java.util.concurrent.ForkJoinPool now provided by C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
-[debug] [naha] The reductions.LineOfSight$ source file has the following regular definitions changed:
-[debug] [naha] 	notify, notifyAll, clone, getClass, finalize, hashCode.
-[debug] [naha] All member reference dependencies will be considered within this context.
-[debug] [naha] Files invalidated by inheriting from (external) reductions.LineOfSight$: Set(); now invalidating by inheritance (internally).
-[debug] [naha] Getting direct dependencies of all sources transitively invalidated by inheritance.
-[debug] [naha] Getting sources that directly depend on (external) reductions.LineOfSight$.
-[debug] [naha] None of the modified names appears in C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\src\test\scala\reductions\LineOfSightSuite.scala. This dependency is not being considered for invalidation.
 [debug] [naha] The reductions.ParallelCountChange$ source file has the following regular definitions changed:
 [debug] [naha] 	notify, notifyAll, clone, getClass, finalize, hashCode.
 [debug] [naha] All member reference dependencies will be considered within this context.
@@ -26,37 +18,12 @@
 [debug] [naha] 	added: Set()
 [debug] [naha] 	modified: Set()
 [debug] [naha] Invalidated products: Set()
-[debug] [naha] External API changes: API Changes: Set(NamesChange(reductions.LineOfSight$,ModifiedNames(regularNames = notify, notifyAll, clone, getClass, finalize, hashCode, implicitNames = )), NamesChange(reductions.ParallelCountChange$,ModifiedNames(regularNames = notify, notifyAll, clone, getClass, finalize, hashCode, implicitNames = )), NamesChange(reductions.ParallelParenthesesBalancing$,ModifiedNames(regularNames = notify, notifyAll, clone, getClass, finalize, hashCode, implicitNames = )))
-[debug] [naha] Modified binary dependencies: Set(C:\Users\Mohamed Abraar Ahmed\.sbt\0.13\java9-rt-ext-jetbrains_s_r_o_11_0_3\rt.jar)
+[debug] [naha] External API changes: API Changes: Set(NamesChange(reductions.ParallelCountChange$,ModifiedNames(regularNames = notify, notifyAll, clone, getClass, finalize, hashCode, implicitNames = )), NamesChange(reductions.ParallelParenthesesBalancing$,ModifiedNames(regularNames = notify, notifyAll, clone, getClass, finalize, hashCode, implicitNames = )))
+[debug] [naha] Modified binary dependencies: Set()
 [debug] [naha] Initial directly invalidated sources: Set()
 [debug] [naha] 
 [debug] [naha] Sources indirectly invalidated by:
 [debug] [naha] 	product: Set()
-[debug] [naha] 	binary dep: Set(C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\src\test\scala\reductions\LineOfSightSuite.scala)
+[debug] [naha] 	binary dep: Set()
 [debug] [naha] 	external source: Set()
-[debug] All initially invalidated sources: Set(C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\src\test\scala\reductions\LineOfSightSuite.scala)
-[debug] [naha] Initial set of included nodes: Set(C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\src\test\scala\reductions\LineOfSightSuite.scala)
-[info] Compiling 1 Scala source to C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\target\scala-2.11\test-classes...
-[debug] Getting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.11.7
-[debug] Getting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.11.7
-[debug] Running cached compiler 305cd393, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-[debug] Calling Scala compiler with arguments  (CompilerInterface):
-[debug] 	-deprecation
-[debug] 	-bootclasspath
-[debug] 	C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.7\scala-library-2.11.7.jar
-[debug] 	-classpath
-[debug] 	C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\target\scala-2.11\test-classes;C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\target\scala-2.11\classes;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\storm-enroute\scalameter_2.11\0.6\scalameter_2.11-0.6.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jfree\jfreechart\1.0.17\jfreechart-1.0.17.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jfree\jcommon\1.0.21\jcommon-1.0.21.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.7\scala-reflect-2.11.7.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-tools\testing\test-interface\0.5\test-interface-0.5.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\wookietreiber\scala-chart_2.11\0.4.2\scala-chart_2.11-0.4.2.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\scala-blitz\scala-blitz_2.11\1.1\scala-blitz_2.11-1.1.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\storm-enroute\scalameter-core_2.11\0.6\scalameter-core_2.11-0.6.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.11\2.2.4\scalatest_2.11-2.2.4.jar;C:\Users\Mohamed Abraar Ahmed\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\junit\junit\4.10\junit-4.10.jar
-[debug] Scala compilation took 1.544441094 s
-[debug] [naha] Invalidating C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\src\test\scala\reductions\LineOfSightSuite.scala...
-[debug] [naha] Invalidating (transitively) by inheritance from C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\src\test\scala\reductions\LineOfSightSuite.scala...
-[debug] [naha] Initial set of included nodes: Set(C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\src\test\scala\reductions\LineOfSightSuite.scala)
-[debug] [naha] Invalidated by transitive inheritance dependency: Set(C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\src\test\scala\reductions\LineOfSightSuite.scala)
-[debug] [naha] The C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\reductions\src\test\scala\reductions\LineOfSightSuite.scala source file has the following regular definitions changed:
-[debug] [naha] 	notify, notifyAll, clone, getClass, finalize, hashCode.
-[debug] [naha] All member reference dependencies will be considered within this context.
-[debug] [naha] New invalidations:
-[debug] [naha] 	Set()
-[debug] [naha] Initial set of included nodes: Set()
-[debug] [naha] Previously invalidated, but (transitively) depend on new invalidations:
-[debug] [naha] 	Set()
-[debug] [naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+[debug] All initially invalidated sources: Set()

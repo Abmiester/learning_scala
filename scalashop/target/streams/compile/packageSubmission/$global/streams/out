@@ -1,0 +1,13 @@
+[info] Packaging C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\scalashop\target\scala-2.11\parprog1-scalashop_2.11-0.1-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	scalashop\HorizontalBoxBlur.scala
+[debug] 	  C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\scalashop\src\main\scala\scalashop\HorizontalBoxBlur.scala
+[debug] 	scalashop\PhotoCanvas.scala
+[debug] 	  C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\scalashop\src\main\scala\scalashop\PhotoCanvas.scala
+[debug] 	scalashop\ScalaShop.scala
+[debug] 	  C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\scalashop\src\main\scala\scalashop\ScalaShop.scala
+[debug] 	scalashop\VerticalBoxBlur.scala
+[debug] 	  C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\scalashop\src\main\scala\scalashop\VerticalBoxBlur.scala
+[debug] 	scalashop\package.scala
+[debug] 	  C:\Users\Mohamed Abraar Ahmed\Documents\GitProjects\learning_scala\scalashop\src\main\scala\scalashop\package.scala
+[info] Done packaging.
